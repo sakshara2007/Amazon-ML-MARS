@@ -1,0 +1,4 @@
+artifacts/s_delivered/
+fake_candidates_train.tsv
+__pycache__/
+*.pyc

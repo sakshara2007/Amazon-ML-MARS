@@ -1,0 +1,40 @@
+{
+  "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+  "embedding_license_check_required": true,
+  "device": "cpu",
+  "feature_columns": [
+    "name_cosine",
+    "address_cosine",
+    "combined_cosine",
+    "name_distance",
+    "address_distance",
+    "combined_distance",
+    "name_address_cosine_gap",
+    "source_is_s3",
+    "country_match",
+    "exact_name",
+    "name_no_suffix",
+    "name_token_hits",
+    "address_token_hits",
+    "translit_token_hits",
+    "compact_name",
+    "ngram_hits",
+    "number_hits",
+    "name_similarity",
+    "address_similarity",
+    "name_token_similarity",
+    "address_token_similarity",
+    "number_match",
+    "postal_match",
+    "blocking_score"
+  ],
+  "train_pairs": 66170,
+  "validation_pairs": 16320,
+  "positive_train_pairs": 65179,
+  "positive_validation_pairs": 230,
+  "best_threshold": {
+    "threshold": 0.98,
+    "f05": 0.05587418545530793
+  },
+  "mlp_iterations": 133
+}
