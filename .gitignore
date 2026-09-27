@@ -1,6 +1,29 @@
-.venv/
+﻿# Python
 __pycache__/
-*.pyc
+*.py[cod]
+.venv/
+venv/
 .env
-artifacts/r/
-output/r/
+
+# Datasets
+dataset/
+*.tsv
+*.csv
+*.parquet
+
+# Generated artifacts
+artifacts/
+output/
+team_delivery/
+
+# DuckDB
+*.duckdb
+*.duckdb.wal
+*.db
+
+# Temporary files
+duckdb_temp/
+*.tmp
+
+# IDE
+.vscode/
